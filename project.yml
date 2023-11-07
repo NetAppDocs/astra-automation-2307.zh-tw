@@ -38,6 +38,7 @@ sidebar:
   - section: workflows_infra
   - section: workflows
   - section: python
+  - section: reference
   - section: information
   - title: 法律聲明
     url: "/legal-notices.html"
