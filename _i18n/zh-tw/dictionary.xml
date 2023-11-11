@@ -210,7 +210,6 @@
   <block id="f42562a6ae551c35216254ce200afcc8" category="cell">攔截來源</block>
   <block id="fba14cda608976c44a49d623666f37c7" category="cell">Hook來源資源代表實際使用的原始程式碼與執行掛勾。將原始程式碼與執行控制區分開有幾項優點、例如允許共用指令碼。</block>
   <block id="f156c7862a93e81ca10ba4bc4349824d" category="cell">LDAP 群組</block>
-  <block id="dc488877c36bb584e674e32f8b4e1de4" category="cell">*22.11*</block>
   <block id="8a958fceac1f74e78832d8498767ce1f" category="cell">您可以列出已設定LDAP伺服器內的群組。存取LDAP群組為唯讀。</block>
   <block id="30b31a74662fc368bd562efd0f43adc2" category="cell">LDAP 使用者</block>
   <block id="0d0a6d61fee1311a1ba8a542e2bb5623" category="cell">您可以列出已設定LDAP伺服器內的使用者。LDAP使用者的存取權限為唯讀。</block>
@@ -1246,4 +1245,9 @@
   <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">新增功能</block>
   <block id="93168a8084b3e838d2932c4734bd234e" category="sidebar">舊版</block>
   <block id="19ec08da81a826d919d64ab860845c04" category="sidebar">API 參考</block>
+  <block id="c4340906de504057557c6bb8611b0ab5" category="cell">22.11.</block>
+  <block id="ed5dea09095f671b801bee34ea28a319" category="cell">權限</block>
+  <block id="5a31da03b445627c9d11d99efb7cc803" category="cell">23.06</block>
+  <block id="22a15af82a20adf60996d549baa48d24" category="cell">權限資源代表與系統內作業相關的權限。API 提供權限的唯讀存取權。</block>
+  <block id="8fe5430b97accfa7b33d3c5887f90718" category="cell">角色資源代表系統中可用的角色。API 提供角色的唯讀存取權。</block>
 </blocks>
