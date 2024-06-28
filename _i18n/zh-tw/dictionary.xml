@@ -756,7 +756,6 @@
   <block id="2d49337d583eac8056d564e348f43744" category="list-text">還原應用程式與複製作業非常類似。</block>
   <block id="af5cd1844721ca591969375d08152b0e" category="list-text">還原應用程式時、您必須提供備份或快照。</block>
   <block id="b844ee2db8fd78557f753d0c04015c4a" category="summary">Astra Control是NetApp軟體產品、可為Kubernetes應用程式提供資料生命週期管理功能。視您的環境而定、有兩種部署模式可供選擇。Astra Control Center 和 Astra Control Service 會根據版本而共用相同的 REST API 。您可以使用REST API和其他相關的自動化技術來管理Astra Control部署。</block>
-  <block id="1a0ca7f0a5aea880c24d544b4655d6ed" category="doc">Astra Control Automation文件</block>
   <block id="a5f871c981a398cb87374a1ff883bcca" category="summary">您可以使用下列指令碼來列出Astra帳戶的應用程式。</block>
   <block id="0dca49fc2e144253162b8cbd94b3b83c" category="admonition">請參閱 <block ref="471a805638f43cfd34206d9398385425" category="inline-link-macro-rx"></block> 以取得所需Json輸入檔的範例。</block>
   <block id="c30daace746a4b0fbccf1758ed0282eb" category="summary">Python是資料中心自動化的熱門開發語言。在將Python的原生功能與數個通用套件搭配使用之前、您必須先準備環境和所需的輸入檔。</block>
@@ -1250,4 +1249,5 @@
   <block id="5a31da03b445627c9d11d99efb7cc803" category="cell">23.06</block>
   <block id="22a15af82a20adf60996d549baa48d24" category="cell">權限資源代表與系統內作業相關的權限。API 提供權限的唯讀存取權。</block>
   <block id="8fe5430b97accfa7b33d3c5887f90718" category="cell">角色資源代表系統中可用的角色。API 提供角色的唯讀存取權。</block>
+  <block id="319cbcbe823e54bc4431c0aeca14c9d6" category="sidebar">Astra Control Automation 23.07 文件</block>
 </blocks>
