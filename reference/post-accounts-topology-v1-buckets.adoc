@@ -7,6 +7,7 @@ summary: 建立新的儲存區
 ---
 = 建立新的儲存區
 :allow-uri-read: 
+:imagesdir: ../media/
 
 
 [.api-doc-operation .api-doc-operation-post]#POST# [.api-doc-code-block]#`/accounts/{account_id}/topology/v1/buckets`#
@@ -15,6 +16,7 @@ summary: 建立新的儲存區
 
 
 
+[[parameters]]
 == 參數
 
 [cols="5*"]
@@ -31,6 +33,7 @@ summary: 建立新的儲存區
 |===
 
 
+[[request-body]]
 == 請求本文
 
 指示要建立的 Bucket API 資源的期望值。
@@ -121,6 +124,7 @@ JSON 字串，指示可用於存取儲存桶的儲存桶協定。定義的值為
 ====
 
 
+[[response]]
 == 回應
 
 [source]
@@ -250,6 +254,7 @@ JSON 字串，指示可用於存取儲存桶的儲存桶協定。定義的值為
 ====
 
 
+[[response]]
 == 回應
 
 [source]
@@ -295,6 +300,7 @@ Status: 401, Unauthorized
 ====
 
 
+[[response]]
 == 回應
 
 [source]
@@ -345,6 +351,7 @@ Status: 400, Bad request
 ====
 
 
+[[response]]
 == 回應
 
 [source]
@@ -395,6 +402,7 @@ Status: 409, Conflict
 ====
 
 
+[[response]]
 == 回應
 
 [source]
@@ -440,6 +448,7 @@ Status: 403, Forbidden
 ====
 
 
+[[error]]
 == 錯誤
 
 [source]
@@ -485,11 +494,13 @@ Status: 404, Not found
 ====
 
 
+[[definitions]]
 == 定義
 
 .請參閱定義
 [%collapsible]
 ====
+[[s3]]
 [role="api-collapsible-fifth-title"]
 s3
 
@@ -517,6 +528,7 @@ s3
 
 
 |===
+[[gcp]]
 [role="api-collapsible-fifth-title"]
 gcp
 
@@ -535,6 +547,7 @@ gcp
 
 
 |===
+[[azure]]
 [role="api-collapsible-fifth-title"]
 azure
 
@@ -562,6 +575,7 @@ azure
 
 
 |===
+[[bucketParameters]]
 [role="api-collapsible-fifth-title"]
 bucketParameters
 
@@ -586,6 +600,7 @@ bucketParameters
 提供 Azure 通訊協定參數的 JSON 物件。
 
 |===
+[[type_astra_label]]
 [role="api-collapsible-fifth-title"]
 type_astra_label
 
@@ -601,6 +616,7 @@ type_astra_label
 | 值 | 字串 | True  a| 
 
 |===
+[[type_astra_metadata_update]]
 [role="api-collapsible-fifth-title"]
 type_astra_metadata_update
 
@@ -633,9 +649,11 @@ type_astra_metadata_update
 | modifiedBy | 字串 | 錯誤  a| 
 
 |===
+[[additionalDetails]]
 [role="api-collapsible-fifth-title"]
 additionalDetails
 
+[[type_astra_stateDetail]]
 [role="api-collapsible-fifth-title"]
 type_astra_stateDetail
 
@@ -659,6 +677,7 @@ type_astra_stateDetail
 | additionalDetails | link:#additionalDetails["additionalDetails"] | 錯誤  a| 
 
 |===
+[[invalidParams]]
 [role="api-collapsible-fifth-title"]
 invalidParams
 
@@ -676,6 +695,7 @@ invalidParams
 查詢參數無效的原因
 
 |===
+[[invalidFields]]
 [role="api-collapsible-fifth-title"]
 invalidFields
 
