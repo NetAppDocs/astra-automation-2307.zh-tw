@@ -3,6 +3,7 @@ sidebar: sidebar
 api: true 
 explorer: false 
 permalink: reference/post-accounts-core-v1-users-rolebindings.html 
+keywords: role binding,create role,account role,user role,role management,assign role 
 summary: 為使用者建立新的角色繫結 
 ---
 = 為使用者建立新的角色繫結
@@ -10,7 +11,20 @@ summary: 為使用者建立新的角色繫結
 :imagesdir: ../media/
 
 
+[role="lead"]
+為使用者建立角色綁定，並指定角色綁定 API 資源的所需值。使用此功能可為應用程式中的使用者指派特定角色和權限。
+
+
+
+[[http-method-and-endpoint]]
+== HTTP 方法和端點
+
 [.api-doc-operation .api-doc-operation-post]#POST# [.api-doc-code-block]#`/accounts/{account_id}/core/v1/users/{user_id}/roleBindings`#
+
+
+
+[[usage-notes]]
+== 使用注意事項
 
 指示要建立的角色繫結 API 資源所需的值。
 
@@ -122,7 +136,7 @@ summary: 為使用者建立新的角色繫結
 
 * 
 +
-= 允許存取任何雲端中任何叢集中所有標記為「dev」的命名空間及其下的所有資源："roleConstraints": [ "namespaces:kubernetesLabels='http://dev.example.com/appname=dev["dev.example.com/appname=dev'.*"]" ]
+= 允許存取任何雲端中任何叢集內標記為 "dev" 的所有命名空間及其下的所有項目："roleConstraints": [ "namespaces:kubernetesLabels='dev.example.com/appname=dev'.*"]
 
 * 
 +
@@ -265,7 +279,7 @@ Status: 201, Returns the newly created roleBinding resource in the JSON response
 
 * 
 +
-= 允許存取任何雲端中任何叢集中所有標記為「dev」的命名空間及其下的所有資源："roleConstraints": [ "namespaces:kubernetesLabels='http://dev.example.com/appname=dev["dev.example.com/appname=dev'.*"]" ]
+= 允許存取任何雲端中任何叢集內標記為 "dev" 的所有命名空間及其下的所有項目："roleConstraints": [ "namespaces:kubernetesLabels='dev.example.com/appname=dev'.*"]
 
 * 
 +

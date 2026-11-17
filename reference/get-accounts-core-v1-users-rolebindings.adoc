@@ -3,6 +3,7 @@ sidebar: sidebar
 api: true 
 explorer: false 
 permalink: reference/get-accounts-core-v1-users-rolebindings.html 
+keywords: role bindings,account id,user id,collection fields,resource filtering,sort order 
 summary: 列出使用者的角色繫結 
 ---
 = 列出使用者的角色繫結
@@ -10,7 +11,20 @@ summary: 列出使用者的角色繫結
 :imagesdir: ../media/
 
 
+[role="lead"]
+檢索使用者的角色綁定，為您提供有效管理使用者權限所需的必要資訊。
+
+
+
+[[http-method-and-endpoint]]
+== HTTP 方法和端點
+
 [.api-doc-operation .api-doc-operation-get]#GET# [.api-doc-code-block]#`/accounts/{account_id}/core/v1/users/{user_id}/roleBindings`#
+
+
+
+[[usage-notes]]
+== 使用注意事項
 
 傳回集合中所有符合資源的 JSON 陣列。如果在請求中指定了個別欄位，則項目 JSON 陣列將按指定順序包含每個相符資源所請求的欄位。
 
@@ -510,7 +524,7 @@ roleBinding_1.1_get_response_body
 
 * 
 +
-= 允許存取任何雲端中任何叢集中所有標記為「dev」的命名空間及其下的所有資源："roleConstraints": [ "namespaces:kubernetesLabels='http://dev.example.com/appname=dev["dev.example.com/appname=dev'.*"]" ]
+= 允許存取任何雲端中任何叢集內標記為 "dev" 的所有命名空間及其下的所有項目："roleConstraints": [ "namespaces:kubernetesLabels='dev.example.com/appname=dev'.*"]
 
 * 
 +
